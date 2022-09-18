@@ -6,14 +6,14 @@ import {useTheme} from "app/providers/ThemeProvider/lib/useTheme";
 import {classNames} from "shared/lib/classNames/classNames";
 
 import "./styles/index.scss";
+import {Navbar} from "widgets/Navbar";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme()
     return (
         <div className={classNames('app', {hovered: true, selected: false}, [theme, ''])}>
+            <Navbar/>
             <button onClick={toggleTheme}>TOGGLE</button>
-            <Link to={'/'}>Главная</Link>
-            <Link to={'/about'}>О сайте</Link>
             <AppRouter/>
         </div>
     );
