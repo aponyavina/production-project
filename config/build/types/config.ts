@@ -1,5 +1,3 @@
-import * as buffer from "buffer";
-
 export type BuildMode = 'production' | 'development'
 
 export interface BuildPaths {
