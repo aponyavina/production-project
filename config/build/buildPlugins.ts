@@ -21,7 +21,7 @@ export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPlu
         ...(isDev ? [new ReactRefreshWebpackPlugin()] : []),
         new webpack.HotModuleReplacementPlugin(),
         new BundleAnalyzerPlugin({
-            openAnalyzer: false
+            openAnalyzer: false,
         }),
     ];
 }
