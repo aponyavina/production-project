@@ -8,12 +8,14 @@ import {
     Reducer,
     ReducersMapObject,
 } from '@reduxjs/toolkit';
+import { ProfileSchema } from 'entity/Profile';
 
 export interface StateSchema {
   counter: CounterSchema
   user: UserSchema
   // асинхронные редьюсеры
   loginForm?: LoginSchema
+  profile?: ProfileSchema
 }
 
 export type StateSchemaKey = keyof StateSchema;
