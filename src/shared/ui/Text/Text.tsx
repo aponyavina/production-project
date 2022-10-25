@@ -14,7 +14,7 @@ interface TextProps {
     theme?: TextTheme
 }
 
-const Text = memo((props: TextProps) => {
+export const Text = memo((props: TextProps) => {
     const {
         className,
         text,
@@ -29,5 +29,3 @@ const Text = memo((props: TextProps) => {
         </div>
     );
 });
-
-export default Text;

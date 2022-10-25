@@ -8,7 +8,7 @@ import { loginActions, loginReducer } from 'features/AuthByUsername/model/slice/
 import {
     loginByUsername,
 } from 'features/AuthByUsername/model/services/loginByUsername/loginByUsername';
-import Text, { TextTheme } from 'shared/ui/Text/Text';
+import { TextTheme, Text } from 'shared/ui/Text/Text';
 
 import DynamicModuleLoader, {
     ReducersList,
