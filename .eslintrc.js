@@ -22,6 +22,7 @@ module.exports = {
         'react-hooks',
         '@typescript-eslint',
         'i18next',
+        'fsd-plugin',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -46,7 +47,7 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to', 'target'],
             },
         ],
-        'max-len': ['error', { ignoreComments: true, code: 110 }],
+        'max-len': ['error', { ignoreComments: true, code: 112 }],
         'implicit-arrow-linebreak': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/click-events-have-key-events': 'off',
@@ -57,6 +58,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        'fsd-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,

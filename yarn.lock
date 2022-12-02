@@ -6837,6 +6837,13 @@
   dependencies:
     "debug" "^3.2.7"
 
+"eslint-plugin-fsd-plugin@^0.0.0":
+  "integrity" "sha512-74zZSLlg2fTdG1rHyiynQ0RTyeA6LHAJHa8MTV+ciP4wQSjivIc8dgVkDFyS/H5QFXTMaz7ctoRftaL6wV3/JA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-fsd-plugin/-/eslint-plugin-fsd-plugin-0.0.0.tgz"
+  "version" "0.0.0"
+  dependencies:
+    "requireindex" "^1.2.0"
+
 "eslint-plugin-i18next@^5.1.2":
   "integrity" "sha512-yXlWOMiyWz9aCGVrLeFijt+LsCXZj9QoddYXmxUeFZrqst4Z2j6vAMBn2iSE2JTNbPDyrdGl3H03UCo+CbdKbQ=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-i18next/-/eslint-plugin-i18next-5.2.1.tgz"
@@ -6948,7 +6955,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
   "version" "3.3.0"
 
-"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || ^8.0.0", "eslint@^7.32.0 || ^8.2.0", "eslint@>= 6", "eslint@>=5", "eslint@8.22.0":
+"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^6.0.0 || ^7.0.0 || ^8.0.0", "eslint@^7.32.0 || ^8.2.0", "eslint@>= 6", "eslint@>=5", "eslint@>=6", "eslint@8.22.0":
   "integrity" "sha512-ci4t0sz6vSRKdmkOGmprBo6fmI4PrphDFMy5JEq/fNS0gQkJM3rLmrqcp8ipMcdobH3KtUP40KniAE9W19S4wA=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.22.0.tgz"
   "version" "8.22.0"
@@ -12473,6 +12480,11 @@
   "integrity" "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw=="
   "resolved" "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   "version" "2.0.2"
+
+"requireindex@^1.2.0":
+  "integrity" "sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww=="
+  "resolved" "https://registry.npmjs.org/requireindex/-/requireindex-1.2.0.tgz"
+  "version" "1.2.0"
 
 "requireindex@~1.1.0":
   "integrity" "sha512-LBnkqsDE7BZKvqylbmn7lTIVdpx4K/QCduRATpO5R+wtPmky/a8pN1bO2D6wXppn1497AJF9mNjqAXr6bdl9jg=="
