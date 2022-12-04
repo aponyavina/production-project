@@ -12161,9 +12161,9 @@
     "scheduler" "^0.20.2"
 
 "react-redux@^7.2.1 || ^8.0.2", "react-redux@^7.2.6":
-  "integrity" "sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ=="
-  "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-7.2.9.tgz"
-  "version" "7.2.9"
+  "integrity" "sha512-10RPdsz0UUrRL1NZE0ejTkucnclYSgXp5q+tB5SWx2qeG2ZJQJyymgAhwKy73yiL/13btfB6fPr+rgbMAaZIAQ=="
+  "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-7.2.6.tgz"
+  "version" "7.2.6"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@types/react-redux" "^7.1.20"
@@ -12197,7 +12197,7 @@
   dependencies:
     "@remix-run/router" "1.0.1"
 
-"react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16 || ^17 || ^18", "react@^16.13.1 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17 || ^18", "react@^16.8.4 || ^17.0.0", "react@^16.9.0 || ^17.0.0 || ^18", "react@^17.0.2", "react@<18.0.0", "react@>= 16.8.0", "react@>= 16.8.6", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
+"react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16 || ^17 || ^18", "react@^16.13.1 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17", "react@^16.8.4 || ^17.0.0", "react@^16.9.0 || ^17.0.0 || ^18", "react@^17.0.2", "react@<18.0.0", "react@>= 16.8.0", "react@>= 16.8.6", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -14953,6 +14953,11 @@
   "version" "1.0.5"
   dependencies:
     "iconv-lite" "0.4.24"
+
+"whatwg-fetch@^3.6.2":
+  "integrity" "sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA=="
+  "resolved" "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz"
+  "version" "3.6.2"
 
 "whatwg-mimetype@^2.3.0":
   "integrity" "sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g=="
